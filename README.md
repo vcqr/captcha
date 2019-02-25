@@ -56,6 +56,6 @@ func main() {
 
 ### 输出图片举例
 
-![exp0](./example/exp0.jpg)
+![exp0](https://github.com/vcqr/captcha/blob/master/example/exp0.png)
 
-![exp1](./example/exp1.jpg)
+![exp1](https://github.com/vcqr/captcha/blob/master/example/exp1.png)
