@@ -16,7 +16,7 @@ go get -u github.com/vcqr/captcha
 import "github.com/vcqr/captcha"
 ```
 
-##Example
+## Example
 
 ```go
 package main
