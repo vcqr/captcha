@@ -33,7 +33,7 @@ func generateCaptchaHandler(w http.ResponseWriter, r *http.Request) {
 	cp := captcha.NewCaptcha(120, 40, 4)
 	cp.SetFontPath("bin/") //指定字体目录
 	cp.SetFontName("free") //指定字体名字
-	cp.SetMode(1) //1：设置为简单的数学算出运算公式； 其他为普通字符串
+	cp.SetMode(1) //1：设置为简单的数学算术运算公式； 其他为普通字符串
 	code, img := cp.OutPut()
 	//备注：code 可以根据情况存储到session，并在使用时取出验证
 
